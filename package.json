@@ -1,0 +1,22 @@
+{
+  "name": "elettrone",
+  "version": "1.0.0",
+  "description": "Electron Test",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint -c .eslintrc --ext .ts ./src",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "author": "Leftyx",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.15",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "electron": "^17.0.0",
+    "eslint": "^8.8.0",
+    "typescript": "^4.5.5"
+  }
+}

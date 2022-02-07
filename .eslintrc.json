@@ -1,0 +1,25 @@
+{
+   "root": true,
+   "globals": {
+      "NodeJS": true
+   },
+   "env": {
+      "node": true,
+      "commonjs": true,
+      "browser": true
+   },
+   "parser": "@typescript-eslint/parser",
+   "plugins": [
+      "@typescript-eslint"
+   ],
+   "extends": [
+      "eslint:recommended"
+   ],
+   "parserOptions": {
+      "ecmaVersion": 2020
+   },
+   "rules": {
+      "semi": [ "error", "always" ],
+      "quotes": [ 2, "single" ]
+   }
+}
